@@ -7,6 +7,7 @@ SLACK_API="YOUR API KEY"
 [connectsense]
 API_TOKEN="YOUR API KEY"
 API_URL = "https://api.connectsense.com/v1"
+DEVICE_SERIAL=""
 
 [lifx]
 LIFX_TOKEN = "YOUR API KEY"

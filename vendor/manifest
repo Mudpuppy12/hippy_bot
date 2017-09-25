@@ -14,6 +14,19 @@
 			"branch": "master"
 		},
 		{
+			"importpath": "github.com/cpuguy83/go-md2man/md2man",
+			"repository": "https://github.com/cpuguy83/go-md2man",
+			"revision": "1d903dcb749992f3741d744c0f8376b4bd7eb3e1",
+			"branch": "master",
+			"path": "/md2man"
+		},
+		{
+			"importpath": "github.com/fsnotify/fsnotify",
+			"repository": "https://github.com/fsnotify/fsnotify",
+			"revision": "4da3e2cfbabc9f751898f250b49f2439785783a1",
+			"branch": "master"
+		},
+		{
 			"importpath": "github.com/go-chat-bot/bot",
 			"repository": "https://github.com/go-chat-bot/bot",
 			"revision": "79dedcde58b3517911a1a34f2d6908e4fefd5fc4",
@@ -40,9 +53,33 @@
 			"path": "/chucknorris"
 		},
 		{
+			"importpath": "github.com/hashicorp/hcl",
+			"repository": "https://github.com/hashicorp/hcl",
+			"revision": "68e816d1c783414e79bc65b3994d9ab6b0a722ab",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/magiconair/properties",
+			"repository": "https://github.com/magiconair/properties",
+			"revision": "8d7837e64d3c1ee4e54a880c5a920ab4316fc90a",
+			"branch": "master"
+		},
+		{
 			"importpath": "github.com/mattn/go-shellwords",
 			"repository": "https://github.com/mattn/go-shellwords",
 			"revision": "95c860c1895b21b58903abdd1d9c591560b0601c",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mitchellh/go-homedir",
+			"repository": "https://github.com/mitchellh/go-homedir",
+			"revision": "b8bc1bf767474819792c23f32d8286a45736f1c6",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mitchellh/mapstructure",
+			"repository": "https://github.com/mitchellh/mapstructure",
+			"revision": "d0303fe809921458f417bcf828397a65db30a7e4",
 			"branch": "master"
 		},
 		{
@@ -52,9 +89,57 @@
 			"branch": "master"
 		},
 		{
+			"importpath": "github.com/pelletier/go-toml",
+			"repository": "https://github.com/pelletier/go-toml",
+			"revision": "16398bac157da96aa88f98a2df640c7f32af1da2",
+			"branch": "master"
+		},
+		{
 			"importpath": "github.com/robfig/cron",
 			"repository": "https://github.com/robfig/cron",
 			"revision": "736158dc09e10f1911ca3a1e1b01f11b566ce5db",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/russross/blackfriday",
+			"repository": "https://github.com/russross/blackfriday",
+			"revision": "4048872b16cc0fc2c5fd9eacf0ed2c2fedaa0c8c",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/spf13/afero",
+			"repository": "https://github.com/spf13/afero",
+			"revision": "ee1bd8ee15a1306d1f9201acc41ef39cd9f99a1b",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/spf13/cast",
+			"repository": "https://github.com/spf13/cast",
+			"revision": "acbeb36b902d72a7a4c18e8f3241075e7ab763e4",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/spf13/cobra",
+			"repository": "https://github.com/spf13/cobra",
+			"revision": "b78744579491c1ceeaaa3b40205e56b0591b93a3",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/spf13/jwalterweatherman",
+			"repository": "https://github.com/spf13/jwalterweatherman",
+			"revision": "12bd96e66386c1960ab0f74ced1362f66f552f7b",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/spf13/pflag",
+			"repository": "https://github.com/spf13/pflag",
+			"revision": "7aff26db30c1be810f9de5038ec5ef96ac41fd7c",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/spf13/viper",
+			"repository": "https://github.com/spf13/viper",
+			"revision": "25b30aa063fc18e48662b86996252eabdcf2f0c7",
 			"branch": "master"
 		},
 		{
@@ -69,6 +154,33 @@
 			"revision": "66aacef3dd8a676686c7ae3716979581e8b03c47",
 			"branch": "master",
 			"path": "/websocket"
+		},
+		{
+			"importpath": "golang.org/x/sys/unix",
+			"repository": "https://go.googlesource.com/sys",
+			"revision": "429f518978ab01db8bb6f44b66785088e7fba58b",
+			"branch": "master",
+			"path": "/unix"
+		},
+		{
+			"importpath": "golang.org/x/text/transform",
+			"repository": "https://go.googlesource.com/text",
+			"revision": "1cbadb444a806fd9430d14ad08967ed91da4fa0a",
+			"branch": "master",
+			"path": "/transform"
+		},
+		{
+			"importpath": "golang.org/x/text/unicode/norm",
+			"repository": "https://go.googlesource.com/text",
+			"revision": "1cbadb444a806fd9430d14ad08967ed91da4fa0a",
+			"branch": "master",
+			"path": "/unicode/norm"
+		},
+		{
+			"importpath": "gopkg.in/yaml.v2",
+			"repository": "https://gopkg.in/yaml.v2",
+			"revision": "eb3733d160e74a9c7e442f435eb3bea458e1d19f",
+			"branch": "v2"
 		}
 	]
 }
