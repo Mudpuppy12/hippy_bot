@@ -1,24 +1,34 @@
 package main
 
 import (
-	"github.com/go-chat-bot/bot/irc"
+	"log"
+
 	"github.com/go-chat-bot/bot/slack"
 	_ "github.com/go-chat-bot/plugins/chucknorris"
 	// Import all the commands you wish to use
-	"os"
-	"strings"
+
+	"github.com/spf13/viper"
 )
+
+var (
+	SLACK_API string
+)
+
+func init() {
+	viper.SetConfigName("config") // no need to include file extension
+	viper.AddConfigPath("/home/dennis/GoProjects/hippy_bot/src/bot")
+	viper.AddConfigPath(".")
+
+	err := viper.ReadInConfig()
+
+	if err != nil { // Handle errors reading the config file
+		log.Fatal(err)
+	}
+
+	SLACK_API = viper.GetString("bot.SLACK_API")
+}
 
 func main() {
 
-	go irc.Run(&irc.Config{
-		Server:   "chat.freenode.net:6697",
-		Channels: strings.Split("#dogpile", ","),
-		User:     "Moonie-bot",
-		Nick:     "Moonie-bot",
-		Password: "",
-		UseTLS:   true,
-		Debug:    os.Getenv("DEBUG") != ""})
-
-	slack.Run("xoxb-233695181313-vkKL3ICGSxZghe6niuyhPr7l")
+	slack.Run(SLACK_API)
 }
