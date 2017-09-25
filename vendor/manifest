@@ -1,0 +1,74 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/beevik/guid",
+			"repository": "https://github.com/beevik/guid",
+			"revision": "d0ea8faecee03ccdfb5ab8322d5d9037bb7af438",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/cloudfoundry/gosigar",
+			"repository": "https://github.com/cloudfoundry/gosigar",
+			"revision": "f4030c18ce1a78252deadef2f5e460b35cce7ae5",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/go-chat-bot/bot",
+			"repository": "https://github.com/go-chat-bot/bot",
+			"revision": "79dedcde58b3517911a1a34f2d6908e4fefd5fc4",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/go-chat-bot/bot/irc",
+			"repository": "https://github.com/go-chat-bot/bot",
+			"revision": "79dedcde58b3517911a1a34f2d6908e4fefd5fc4",
+			"branch": "master",
+			"path": "/irc"
+		},
+		{
+			"importpath": "github.com/go-chat-bot/plugins",
+			"repository": "https://github.com/go-chat-bot/plugins",
+			"revision": "327643c5e32f5b5c44ad5e0d4bdf6812cfacca9f",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/go-chat-bot/plugins/chucknorris",
+			"repository": "https://github.com/go-chat-bot/plugins",
+			"revision": "327643c5e32f5b5c44ad5e0d4bdf6812cfacca9f",
+			"branch": "master",
+			"path": "/chucknorris"
+		},
+		{
+			"importpath": "github.com/mattn/go-shellwords",
+			"repository": "https://github.com/mattn/go-shellwords",
+			"revision": "95c860c1895b21b58903abdd1d9c591560b0601c",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/nlopes/slack",
+			"repository": "https://github.com/nlopes/slack",
+			"revision": "5cde21b8b96a43fc3435a1f514123d14fd7eabdc",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/robfig/cron",
+			"repository": "https://github.com/robfig/cron",
+			"revision": "736158dc09e10f1911ca3a1e1b01f11b566ce5db",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/thoj/go-ircevent",
+			"repository": "https://github.com/thoj/go-ircevent",
+			"revision": "1b0acb5f2f1b615cfbd4b9f91abb14cb39a18769",
+			"branch": "master"
+		},
+		{
+			"importpath": "golang.org/x/net/websocket",
+			"repository": "https://go.googlesource.com/net",
+			"revision": "66aacef3dd8a676686c7ae3716979581e8b03c47",
+			"branch": "master",
+			"path": "/websocket"
+		}
+	]
+}

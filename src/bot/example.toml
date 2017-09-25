@@ -1,0 +1,21 @@
+# Example toml file
+# Add the API keys and rename to config.toml
+
+[bot]
+SLACK_API="YOUR API KEY"
+
+[connectsense]
+API_TOKEN="YOUR API KEY"
+API_URL = "https://api.connectsense.com/v1"
+
+[lifx]
+LIFX_TOKEN = "YOUR API KEY"
+LIFX_URL = "https://api.lifx.com/v1/lights"
+
+[particle]
+PARTICLE_TOKEN="YOUR API KEY"
+PARTICLE_URL="https://api.particle.io/v1"
+
+[openweather]
+WEATHER_KEY = "YOUR API KEY"
+WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather?"
