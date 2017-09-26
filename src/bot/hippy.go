@@ -3,6 +3,8 @@ package main
 import (
 	"log"
 
+	_ "plugins/connectsense"
+
 	"github.com/go-chat-bot/bot/slack"
 	_ "github.com/go-chat-bot/plugins/chucknorris"
 	// Import all the commands you wish to use
@@ -11,7 +13,7 @@ import (
 )
 
 var (
-	SLACK_API string
+	slackAPI string
 )
 
 func init() {
@@ -25,10 +27,10 @@ func init() {
 		log.Fatal(err)
 	}
 
-	SLACK_API = viper.GetString("bot.SLACK_API")
+	slackAPI = viper.GetString("bot.SLACK_API")
 }
 
 func main() {
 
-	slack.Run(SLACK_API)
+	slack.Run(slackAPI)
 }
